@@ -1,5 +1,5 @@
 #Documentary for UTS 
-All the Commands and steps used (the commands are step by step):
+**All the Commands and steps used (the commands are step by step):
 
 ##Package Install
     - sudo apt install nginx
