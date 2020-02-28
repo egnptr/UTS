@@ -1,0 +1,66 @@
+<rss version="2.0">
+<channel>
+<title>My new wiki</title>
+<link>http://_:80/lionwiki-3.2.11/index.php</link>
+<description>RSS feed from My new wiki</description>
+<language>en-US</language>
+
+	<item>
+	  <title>Eugene</title>
+	  <pubDate>Fri, 28 Feb 2020 13:12:15 +0800</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Eugene</link>
+	  <description><pre id="diff"><ins>Hello I'm Eugene 
+I like soto tangkar karawaci because it is very cheap and i like cheap things
+Feel free to read my page</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Luis</title>
+	  <pubDate>Fri, 28 Feb 2020 13:10:28 +0800</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Luis</link>
+	  <description><pre id="diff"><ins>Hello my name is Luis!
+I like gyukaku and basketball
+Food is good
+Basketball is good</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Main page</title>
+	  <pubDate>Fri, 28 Feb 2020 13:09:45 +0800</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Main+page</link>
+	  <description><pre id="diff">Hello, this is the main page!
+There is two page: [Luis's <del>information|google.com]</del><ins>information|Luis]</ins> and [Eugene's <del>information|google.com].</del><ins>information|Eugene].</ins> Feel free to check each of them.
+
+
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Main page</title>
+	  <pubDate>Fri, 28 Feb 2020 13:09:09 +0800</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Main+page</link>
+	  <description><pre id="diff">Hello, this is the main page!
+There is two page: <del>[title|Luis's information]</del><ins>[Luis's information|google.com]</ins> and <del>[title|Eugene's information].</del><ins>[Eugene's information|google.com].</ins> Feel free to check each of them.
+
+
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Main page</title>
+	  <pubDate>Fri, 28 Feb 2020 13:07:41 +0800</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Main+page</link>
+	  <description><pre id="diff"><ins>Hello, this is the main page!
+There is two page: [title|Luis's information] and [title|Eugene's information]. Feel free to check each of them.
+
+</ins>
+</pre></description>
+	</item>
+
+
+
+
+</channel>
+</rss>
