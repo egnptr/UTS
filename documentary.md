@@ -14,6 +14,28 @@ Package Install
     sudo mysql_seucure_installation
     All questions answered with Yes
 
+Nginx Server Setup  
+   cd /etc/nginx/sites-available/
+    sudo cp default midtest
+    sudo chmod +w default
+    sudo nano default{
+        Listen 80 is kept and the rest are removed
+        Added index.php
+        uncomment the location ~\.php$ block
+    }
+    sudo nginx -t
+    sudo ln -s /etc/nginx/sites-available/midtest /etc/nginx/sites-enabled/
+    sudo unlink /etc/nginx/sites-enabled/default
+    sudo service nginx reload
+    cd /var/www/html/
+    cd sudo nano info.php{
+        <?php phpinfo(); ?>
+    }
+    curl -4 icanhazip.com
+    Ip: 122.200.1.254
+    cd ~
+    sudo rm info.php
+    info.php has been removed
 
 
     
