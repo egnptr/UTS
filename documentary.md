@@ -37,7 +37,33 @@ Nginx Server Setup
     sudo rm info.php
     info.php has been removed
 
+Lion Wiki
+    wget http/lionwiki.0o.cz/download/3.2.11/lionwiki-3.2.11.zip
+    sudo apt install unzip
+    unzip lionwiki-3.2.11.zip
+    cd lionwiki-3.2.11
+    ls -l
+    sudo chmod a+w var
+    ls -l
+    cd ..
+    sudo mv lionwiki-3.2.11 /var/www/html
+    cd /var/www/html
+    ls
+    cd lionwiki-3.2.11
+    ls
+    cd templates
+    ls -l
 
+    Inserted in browser: localhost/lionwiki-3.2.11
+    The Lion wiki main page is successfully shown
+    Added an introduction at the main page
+    { Hello, This is the main page
+      There are two pages: Luis's Information [Luis] and Eugene's Information [Eugene].
+      Feel free to check each of them.}
+
+    Links that will move users to a new page consisting
+    of our information have been created. [Click the link to
+    move to our pages]
     
 
 
